@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillSection, skillsSection1, skillsSection2, skillsSection3} from "../../portfolio";
+import {illustration, skillsSection, skillsSection1, skillsSection2, skillsSection3} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
@@ -13,8 +13,8 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       
-      {/* ==================== GLOBAL / MAIN SKILL SECTION ==================== */}
-      {skillSection && skillSection.display && (
+      {/* ==================== MAIN SKILL SECTION ==================== */}
+      {skillsSection && skillsSection.display && (
         <div className="skills-main-div" style={{ marginBottom: "80px" }}>
           <Fade left duration={1000}>
             <div className="skills-image-div">
@@ -31,14 +31,14 @@ export default function Skills() {
           <Fade right duration={1000}>
             <div className="skills-text-div">
               <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>
-                {skillSection.title}
+                {skillsSection.title}
               </h1>
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
-                {skillSection.subTitle}
+                {skillsSection.subTitle}
               </p>
-              <SoftwareSkill logos={skillSection.softwareSkills} />
+              <SoftwareSkill logos={skillsSection.softwareSkills} />
               <div>
-                {skillSection.skills && skillSection.skills.map((skills, i) => {
+                {skillsSection.skills && skillsSection.skills.map((skills, i) => {
                   return (
                     <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
                       {skills}
