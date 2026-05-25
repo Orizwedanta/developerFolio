@@ -52,6 +52,7 @@ const skillsSection = {
     emoji("➤ Highly procedural individual with 6+ years of experience across diversified IT operations."),
     emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
     emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
     emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures.")
   ],
   softwareSkills: [
@@ -65,11 +66,12 @@ const skillsSection = {
 // ==================== 1. KATEGORI SKILL: WEBSITE DEVELOPMENT ====================
 const skillsSection1 = {
   title: "Hospitality Administrator",
-  subTitle: "BUILDING RESPONSIVE AND OPTIMIZED DIGITAL EXPERIENCES",
+  subTitle: "Helps real estate & travel agency company by connecting OTA using Property Management System ",
   skills: [
     emoji("➤ Develop and maintain responsive commercial websites with a focus on UI/UX optimization using Framer."),
     emoji("➤ Manage layout breakpoint systems, pricing structures, and essential digital content updates seamlessly."),
     emoji("➤ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
     emoji("➤ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems.")
   ],
   softwareSkills: [
@@ -83,11 +85,13 @@ const skillsSection1 = {
 // ==================== 2. KATEGORI SKILL: SEO & WEB OPTIMIZATION ====================
 const skillsSection2 = {
   title: "SEO & Web Optimization",
-  subTitle: "DRIVING ORGANIC TRAFFIC AND TRACKING PERFORMANCE METRICS",
+  subTitle: "Helps company to gain SEO keywords rank & tracking site performance",
   skills: [
-    emoji("⚡ Deep optimization of organic target keywords to enhance search engine positions and scoring visibility."),
-    emoji("⚡ Active performance tracking and error debugging utilizing industrial analytics platforms."),
-    emoji("⚡ Monitor digital core metrics via comprehensive web utilities like Sitechecker, Search Console, and Ahrefs.")
+    emoji("➤ Deep optimization of organic target keywords to enhance search engine positions and scoring visibility."),
+    emoji("➤ Active performance tracking and error debugging utilizing industrial analytics platforms."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Monitor digital core metrics via comprehensive web utilities like Sitechecker, Search Console, and Ahrefs.")
   ],
   softwareSkills: [
     { skillName: "google", fontAwesomeClassname: "fab fa-google" }
@@ -97,12 +101,14 @@ const skillsSection2 = {
 
 // ==================== 3. KATEGORI SKILL: SOFTWARE TESTING & WEB3 ====================
 const skillsSection3 = {
-  title: "Software Testing & QA",
-  subTitle: "ENSURING APPLICATION QUALITY AND BLOCKCHAIN COMPLIANCE",
+  title: "Website Testing & Bug Reporting",
+  subTitle: "Ensure beta application quality before its releases to published",
   skills: [
-    emoji("⚡ 6+ years of specialized functional testing experience for alpha and beta software architectures."),
-    emoji("⚡ Advanced execution of snapshot processors and peer-ID data validation networks using Docker environments."),
-    emoji("⚡ Comprehensive stress-testing and smart contract simulation across Layer 1 and Layer 2 EVM token networks.")
+    emoji("➤ 6+ years of specialized functional testing experience for alpha and beta software architectures."),
+    emoji("➤ Advanced execution of snapshot processors and peer-ID data validation networks using Docker environments."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Comprehensive stress-testing and smart contract simulation across Layer 1 and Layer 2 EVM token networks.")
   ],
   softwareSkills: [
     { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
@@ -363,15 +369,15 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project? Feel free to contact me.",
+  number: "+6287860441732",
+  email_address: "oriz.wedanta@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "orizwedanta", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
