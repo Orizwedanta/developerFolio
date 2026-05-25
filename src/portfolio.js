@@ -26,7 +26,7 @@ const greeting = {
     "A passionate of SEO, Front End, Website Developer. Having an experience of building and maintaining commercial Websites, experienced with many SaaS developer tools such as Wordpress, Framer, Botpress."
   ),
   resumeLink:
-    "https://www.dropbox.com/scl/fi/n52na3mu9kttu6q9va1w9/my-cv.pdf?rlkey=9w5zd32idneq8r5b4mlqscf55&st=e7r8k0pk&dl=1", // Set to empty to hide the button
+    "https://www.dropbox.com/scl/fi/n52na3mu9kttu6q9va1w9/my-cv.pdf?rlkey=9w5zd32idneq8r5b4mlqscf55&st=zimrudc6&dl=0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
