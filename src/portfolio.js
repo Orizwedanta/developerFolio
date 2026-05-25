@@ -375,22 +375,25 @@ const twitterDetails = {
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  illustration,
-  greeting,
-  socialMediaLinks,
-  splashScreen,
-  skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  openSource,
-  bigProjects,
-  achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
-  contactInfo,
-  twitterDetails,
-  isHireable,
-  resumeSection
+  illustration,
+  greeting,
+  socialMediaLinks,
+  splashScreen,
+  skillsSection,   // <-- Section Utama
+  skillsSection1,  // <-- Tambahkan ini agar Website Development bisa dibaca
+  skillsSection2,  // <-- Tambahkan ini agar SEO & Web Optimization bisa dibaca
+  skillsSection3,  // <-- Tambahkan ini agar Software Testing & QA bisa dibaca
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails,
+  isHireable,
+  resumeSection
 };
