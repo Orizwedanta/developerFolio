@@ -46,11 +46,13 @@ const socialMediaLinks = {
 
 // ==================== 0. GLOBAL / MAIN SKILL SECTION ====================
 const skillsSection = {
-  title: "What I do",
-  subTitle: "MULTIDISCIPLINARY IT PROFESSIONAL SPECIALIZING IN WEB SYSTEMS & TESTING",
+  title: "Front End & SEO Specialist",
+  subTitle: "Developing, Maintain, Configure active commercial sites UI using SaaS & Project Management System",
   skills: [
-    emoji("⚡ Highly procedural individual with 6+ years of experience across diversified IT operations."),
-    emoji("⚡ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures.")
+    emoji("➤ Highly procedural individual with 6+ years of experience across diversified IT operations."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
+    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures.")
   ],
   softwareSkills: [
     { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
@@ -62,12 +64,13 @@ const skillsSection = {
 
 // ==================== 1. KATEGORI SKILL: WEBSITE DEVELOPMENT ====================
 const skillsSection1 = {
-  title: "Website Development",
+  title: "Hospitality Administrator",
   subTitle: "BUILDING RESPONSIVE AND OPTIMIZED DIGITAL EXPERIENCES",
   skills: [
-    emoji("⚡ Develop and maintain responsive commercial websites with a focus on UI/UX optimization using Framer."),
-    emoji("⚡ Manage layout breakpoint systems, pricing structures, and essential digital content updates seamlessly."),
-    emoji("⚡ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems.")
+    emoji("➤ Develop and maintain responsive commercial websites with a focus on UI/UX optimization using Framer."),
+    emoji("➤ Manage layout breakpoint systems, pricing structures, and essential digital content updates seamlessly."),
+    emoji("➤ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems."),
+    emoji("➤ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems.")
   ],
   softwareSkills: [
     { skillName: "wordpress", fontAwesomeClassname: "fab fa-wordpress" },
@@ -142,12 +145,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Front-end", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SEO Performance",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
