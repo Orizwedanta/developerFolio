@@ -40,6 +40,8 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+// Skills Section
+
 // ==================== 0. FRONT END & SEO SPECIALIST ====================
 const skillsSection = {
   title: "Front End & SEO Specialist",
@@ -73,7 +75,7 @@ const skillsSection1 = {
   softwareSkills: [
     { skillName: "Property Systems", fontAwesomeClassname: "fluent:building-hotel-24-filled" },
     { skillName: "Channel Manager", fontAwesomeClassname: "fa-solid:concierge-bell" },
-    { skillName: "STAAH / Hotel Link", fontAwesomeClassname: "carbon:cloud-service-management" }
+    { skillName: "Database Logistics", fontAwesomeClassname: "fas:network-wired" }
   ],
   display: true
 };
@@ -118,8 +120,9 @@ const skillsSection3 = {
 };
 
 // Education Section
+
 const educationInfo = {
-  display: true,
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -144,12 +147,13 @@ const educationInfo = {
 };
 
 // Your top 3 proficient stacks/tech experience
+
 const techStack = {
-  viewSkillBars: true,
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Front-end",
-      progressPercentage: "80%"
+      Stack: "Front-end", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "SEO Performance",
@@ -160,12 +164,13 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
+
 const workExperiences = {
-  display: true,
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -195,12 +200,16 @@ const workExperiences = {
   ]
 };
 
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
 const openSource = {
-  showGithubProfile: "true",
-  display: true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
+
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -214,6 +223,7 @@ const bigProjects = {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
+        //  you can add extra buttons here.
       ]
     },
     {
@@ -228,10 +238,12 @@ const bigProjects = {
       ]
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
+// Include certificates, talks etc
+
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
@@ -282,14 +294,15 @@ const achievementSection = {
       ]
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
+
 const blogSection = {
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true",
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -302,10 +315,11 @@ const blogSection = {
       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
+
 const talkSection = {
   title: "TALKS",
   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
@@ -317,24 +331,25 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
+
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -345,12 +360,13 @@ const contactInfo = {
 };
 
 // Twitter Section
+
 const twitterDetails = {
-  userName: "orizwedanta",
-  display: true
+  userName: "orizwedanta", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false;
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
