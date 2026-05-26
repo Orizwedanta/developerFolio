@@ -1,11 +1,34 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection, skillsSection1, skillsSection2, skillsSection3} from "../../portfolio";
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+
+// Komponen Pembantu Lokal untuk Memastikan Iconify Merender dengan Sempurna
+function CustomSoftwareSkill({ logos }) {
+  return (
+    <div className="software-skills-main-div">
+      <ul className="dev-icons">
+        {logos.map((logo, i) => {
+          return (
+            <li key={i} className="software-skill-inline" name={logo.skillName}>
+              {/* Mendukung pembacaan set ikon khusus dari iconify */}
+              <span
+                className="iconify"
+                data-icon={logo.fontAwesomeClassname}
+                style={{ fontSize: "50px" }}
+                data-inline="false"
+              ></span>
+              <p>{logo.skillName}</p>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -36,7 +59,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection.subTitle}
               </p>
-              <SoftwareSkill logos={skillsSection.softwareSkills} />
+              <CustomSoftwareSkill logos={skillsSection.softwareSkills} />
               <div>
                 {skillsSection.skills && skillsSection.skills.map((skills, i) => {
                   return (
@@ -74,7 +97,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection1.subTitle}
               </p>
-              <SoftwareSkill logos={skillsSection1.softwareSkills} />
+              <CustomSoftwareSkill logos={skillsSection1.softwareSkills} />
               <div>
                 {skillsSection1.skills && skillsSection1.skills.map((skills, i) => {
                   return (
@@ -112,7 +135,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection2.subTitle}
               </p>
-              <SoftwareSkill logos={skillsSection2.softwareSkills} />
+              <CustomSoftwareSkill logos={skillsSection2.softwareSkills} />
               <div>
                 {skillsSection2.skills && skillsSection2.skills.map((skills, i) => {
                   return (
@@ -150,7 +173,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection3.subTitle}
               </p>
-              <SoftwareSkill logos={skillsSection3.softwareSkills} />
+              <CustomSoftwareSkill logos={skillsSection3.softwareSkills} />
               <div>
                 {skillsSection3.skills && skillsSection3.skills.map((skills, i) => {
                   return (
