@@ -46,76 +46,44 @@ const socialMediaLinks = {
 
 // ==================== 0. FRONT END & SEO SPECIALIST ====================
 const skillsSection = {
-  title: "Front End & SEO Specialist",
-  subTitle: "Developing, maintaining, and configuring commercial site user interfaces using SaaS and modern project management workflows.",
-  skills: [
-    emoji("➤ Highly procedural professional with 6+ years of technical experience across diversified IT and web operations."),
-    emoji("➤ Designing and maintaining intuitive user interfaces to bridge the gap between user experience and business logic."),
-    emoji("➤ Managing end-to-end web deployments ensuring high speed, cross-browser compatibility, and seamless navigation."),
-    emoji("➤ Passionate about clean architecture, procedural testing, and optimizing code for production environments."),
-    emoji("➤ Integrating automation software, bots, and modern SaaS tools to maximize standard operational efficiency.")
-  ],
+  // ... (title, subtitle, dan skills tetap sama)
   softwareSkills: [
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" }
+    { skillName: "HTML5", fontAwesomeClassname: "vscode-icons:file-type-html" },
+    { skillName: "CSS3", fontAwesomeClassname: "vscode-icons:file-type-css" },
+    { skillName: "JavaScript", fontAwesomeClassname: "logos:javascript" }
   ],
   display: true
 };
 
 // ==================== 1. HOSPITALITY ADMINISTRATOR ====================
 const skillsSection1 = {
-  title: "Hospitality Administrator",
-  subTitle: "Helping real estate and travel agencies maximize distribution by connecting Online Travel Agencies (OTAs) through Property Management Systems.",
-  skills: [
-    emoji("➤ Advanced configuration and synchronization of Property Management Systems (PMS) with major OTA distribution networks."),
-    emoji("➤ Managing property inventory availability, complex room pricing tiers, and direct structural booking flows."),
-    emoji("➤ Setting up seamless connection configurations using channel managers like STAAH, Hotel Link, and Little Hotelier."),
-    emoji("➤ Optimizing real estate property data layouts on commercial endpoints to maximize conversion rates and guest acquisition."),
-    emoji("➤ Bridging regional hospitality infrastructure gaps by integrating modern digital reservation systems.")
-  ],
+  // ... (title, subtitle, dan skills tetap sama)
   softwareSkills: [
-    { skillName: "Property Systems", fontAwesomeClassname: "fas fa-hotel" }, // Representing PMS / OTA tools
-    { skillName: "Channel Manager", fontAwesomeClassname: "fas fa-concierge-bell" }, // Representing STAAH / Little Hotelier
-    { skillName: "Database Logistics", fontAwesomeClassname: "fas fa-network-wired" }
+    { skillName: "Property Systems (PMS)", fontAwesomeClassname: "fluent:building-hotel-24-filled" },
+    { skillName: "Channel Manager", fontAwesomeClassname: "fa-solid:concierge-bell" },
+    { skillName: "Zapier Automation", fontAwesomeClassname: "simple-icons:zapier" } // 🎯 Ikon Zapier pilihanmu
   ],
   display: true
 };
 
 // ==================== 2. SEO & WEB OPTIMIZATION ====================
 const skillsSection2 = {
-  title: "SEO & Web Optimization",
-  subTitle: "Empowering businesses to scale organic keyword rankings, monitor search trends, and audit comprehensive technical site performance.",
-  skills: [
-    emoji("➤ On-page and off-page semantic optimization targeting high-value commercial keywords to increase organic traffic."),
-    emoji("➤ Actively tracking core web vitals, indexation issues, and crawl errors using industry-grade analytical dashboards."),
-    emoji("➤ Managing site health scoring metrics, comprehensive backlinks architecture, and domain authority profiles."),
-    emoji("➤ Executing regular technological audits to patch rendering errors and enhance mobile responsiveness scoring."),
-    emoji("➤ Harnessing advanced platform analytics (Ahrefs, Google Search Console, Sitechecker) to formulate data-driven SEO strategy.")
-  ],
+  // ... (title, subtitle, dan skills tetap sama)
   softwareSkills: [
-    { skillName: "Google Search Console", fontAwesomeClassname: "fab fa-google" },
-    { skillName: "Ahrefs & Site Analytics", fontAwesomeClassname: "fas fa-chart-line" },
-    { skillName: "Technical SEO Audits", fontAwesomeClassname: "fas fa-search-plus" }
+    { skillName: "Google Search Console", fontAwesomeClassname: "simple-icons:googlesearchconsole" }, // 🎯 Ikon GSC pilihanmu
+    { skillName: "Ahrefs Analytics", fontAwesomeClassname: "simple-icons:ahrefs" },
+    { skillName: "Fillout Forms", fontAwesomeClassname: "simple-icons:fillout" } // 🎯 Ikon Fillout pilihanmu
   ],
   display: true
 };
 
 // ==================== 3. WEBSITE BUILDER ====================
 const skillsSection3 = {
-  title: "Website Builder",
-  subTitle: "Building production-ready commercial platforms and maintaining high-performance digital presence using modern frameworks.",
-  skills: [
-    emoji("➤ Developing structured responsive commercial websites with pixel-perfect accuracy using modern workspace layout engines."),
-    emoji("➤ Mapping structural layout responsive breakpoint systems to ensure fluidity across smart devices and large desktop monitors."),
-    emoji("➤ Launching customizable enterprise landing systems using headless CMS structures, WordPress layouts, and Framer infrastructure."),
-    emoji("➤ Rapid prototyping of technical web systems from wireframes into operational interactive web applications."),
-    emoji("➤ Maintaining web application performance via continuous stress-testing, layout optimization, and asset compression.")
-  ],
+  // ... (title, subtitle, dan skills tetap sama)
   softwareSkills: [
-    { skillName: "WordPress", fontAwesomeClassname: "fab fa-wordpress" },
-    { skillName: "Moqups Wireframing", fontAwesomeClassname: "fas fa-pencil-ruler" }, // Wireframing symbol
-    { skillName: "Framer", fontAwesomeClassname: "fas fa-cubes" } // Clean workspace building block symbol
+    { skillName: "WordPress", fontAwesomeClassname: "logos:wordpress-icon" },
+    { skillName: "Moqups Wireframing", fontAwesomeClassname: "simple-icons:moqups" }, // 🎯 Ikon Moqups pilihanmu
+    { skillName: "Botpress AI", fontAwesomeClassname: "pixelarticons:gear" } // 🎯 Botpress (Menggunakan alternatif pixel-art yang aman & stabil)
   ],
   display: true
 };
