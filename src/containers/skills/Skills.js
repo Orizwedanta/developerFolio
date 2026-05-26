@@ -6,19 +6,18 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-// Komponen Pembantu Lokal untuk Memastikan Iconify Merender dengan Sempurna
-function CustomSoftwareSkill({ logos }) {
+// Fungsi lokal untuk merender Iconify secara langsung dan responsif
+function RenderIconifySkills({ logos }) {
   return (
     <div className="software-skills-main-div">
       <ul className="dev-icons">
         {logos.map((logo, i) => {
           return (
             <li key={i} className="software-skill-inline" name={logo.skillName}>
-              {/* Mendukung pembacaan set ikon khusus dari iconify */}
               <span
                 className="iconify"
                 data-icon={logo.fontAwesomeClassname}
-                style={{ fontSize: "50px" }}
+                style={{ fontSize: "45px", color: "inherit" }}
                 data-inline="false"
               ></span>
               <p>{logo.skillName}</p>
@@ -36,18 +35,15 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       
-      {/* ==================== MAIN SKILL SECTION ==================== */}
+      {/* ==================== SECTION 0: FRONT END ==================== */}
       {skillsSection && skillsSection.display && (
-        <div className="skills-main-div" style={{ marginBottom: "80px" }}>
+        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img
-                  alt="Man Working"
-                  src={require("../../assets/images/developerActivity.svg")}
-                />
+                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -59,7 +55,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection.subTitle}
               </p>
-              <CustomSoftwareSkill logos={skillsSection.softwareSkills} />
+              <RenderIconifySkills logos={skillsSection.softwareSkills} />
               <div>
                 {skillsSection.skills && skillsSection.skills.map((skills, i) => {
                   return (
@@ -74,18 +70,15 @@ export default function Skills() {
         </div>
       )}
 
-      {/* ==================== SKILL SECTION 1 ==================== */}
+      {/* ==================== SECTION 1: HOSPITALITY ==================== */}
       {skillsSection1 && skillsSection1.display && (
-        <div className="skills-main-div" style={{ marginBottom: "80px" }}>
+        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img
-                  alt="Man Working"
-                  src={require("../../assets/images/developerActivity.svg")}
-                />
+                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -97,7 +90,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection1.subTitle}
               </p>
-              <CustomSoftwareSkill logos={skillsSection1.softwareSkills} />
+              <RenderIconifySkills logos={skillsSection1.softwareSkills} />
               <div>
                 {skillsSection1.skills && skillsSection1.skills.map((skills, i) => {
                   return (
@@ -112,18 +105,15 @@ export default function Skills() {
         </div>
       )}
 
-      {/* ==================== SKILL SECTION 2 ==================== */}
+      {/* ==================== SECTION 2: SEO ==================== */}
       {skillsSection2 && skillsSection2.display && (
-        <div className="skills-main-div" style={{ marginBottom: "80px" }}>
+        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img
-                  alt="Man Working"
-                  src={require("../../assets/images/developerActivity.svg")}
-                />
+                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -135,7 +125,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection2.subTitle}
               </p>
-              <CustomSoftwareSkill logos={skillsSection2.softwareSkills} />
+              <RenderIconifySkills logos={skillsSection2.softwareSkills} />
               <div>
                 {skillsSection2.skills && skillsSection2.skills.map((skills, i) => {
                   return (
@@ -150,18 +140,15 @@ export default function Skills() {
         </div>
       )}
 
-      {/* ==================== SKILL SECTION 3 ==================== */}
+      {/* ==================== SECTION 3: WEBSITE BUILDER ==================== */}
       {skillsSection3 && skillsSection3.display && (
-        <div className="skills-main-div" style={{ marginBottom: "80px" }}>
+        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img
-                  alt="Man Working"
-                  src={require("../../assets/images/developerActivity.svg")}
-                />
+                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -173,7 +160,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection3.subTitle}
               </p>
-              <CustomSoftwareSkill logos={skillsSection3.softwareSkills} />
+              <RenderIconifySkills logos={skillsSection3.softwareSkills} />
               <div>
                 {skillsSection3.skills && skillsSection3.skills.map((skills, i) => {
                   return (
