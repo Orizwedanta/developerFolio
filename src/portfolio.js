@@ -109,12 +109,12 @@ const skillsSection3 = {
     emoji("➤ Rapid prototyping of technical web systems from wireframes into operational interactive web applications."),
     emoji("➤ Maintaining web application performance via continuous stress-testing, layout optimization, and asset compression.")
   ],
-  softwareSkills: [
-    { skillName: "WordPress", fontAwesomeClassname: "logos:wordpress-icon" },
-    { skillName: "Framer", fontAwesomeClassname: "logos:framer" },
-    { skillName: "Moqups Wireframing", fontAwesomeClassname: "simple-icons:moqups" },
-    { skillName: "Botpress AI", fontAwesomeClassname: "pixelarticons:book-open" } 
-  ],
+ softwareSkills: [
+  { skillName: "WordPress", fontAwesomeClassname: "logos:wordpress-icon" },
+  { skillName: "Framer", fontAwesomeClassname: "logos:framer" },
+  { skillName: "Moqups Wireframing", fontAwesomeClassname: "simple-icons:moqups" },
+  { skillName: "Botpress AI", fontAwesomeClassname: "pixelarticons:book-open" }
+],
   display: true
 };
 
