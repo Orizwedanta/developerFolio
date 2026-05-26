@@ -44,80 +44,81 @@ const socialMediaLinks = {
 
 // Skills Section
 
-// ==================== 0. GLOBAL / MAIN SKILL SECTION ====================
+// ==================== 0. FRONT END & SEO SPECIALIST ====================
 const skillsSection = {
   title: "Front End & SEO Specialist",
-  subTitle: "Developing, Maintain, Configure active commercial sites UI using SaaS & Project Management System",
+  subTitle: "Developing, maintaining, and configuring commercial site user interfaces using SaaS and modern project management workflows.",
   skills: [
-    emoji("➤ Highly procedural individual with 6+ years of experience across diversified IT operations."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures.")
+    emoji("➤ Highly procedural professional with 6+ years of technical experience across diversified IT and web operations."),
+    emoji("➤ Designing and maintaining intuitive user interfaces to bridge the gap between user experience and business logic."),
+    emoji("➤ Managing end-to-end web deployments ensuring high speed, cross-browser compatibility, and seamless navigation."),
+    emoji("➤ Passionate about clean architecture, procedural testing, and optimizing code for production environments."),
+    emoji("➤ Integrating automation software, bots, and modern SaaS tools to maximize standard operational efficiency.")
   ],
   softwareSkills: [
-    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
     { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" }
   ],
   display: true
 };
 
-// ==================== 1. KATEGORI SKILL: WEBSITE DEVELOPMENT ====================
+// ==================== 1. HOSPITALITY ADMINISTRATOR ====================
 const skillsSection1 = {
   title: "Hospitality Administrator",
-  subTitle: "Helps real estate & travel agency company by connecting OTA using Property Management System ",
+  subTitle: "Helping real estate and travel agencies maximize distribution by connecting Online Travel Agencies (OTAs) through Property Management Systems.",
   skills: [
-    emoji("➤ Develop and maintain responsive commercial websites with a focus on UI/UX optimization using Framer."),
-    emoji("➤ Manage layout breakpoint systems, pricing structures, and essential digital content updates seamlessly."),
-    emoji("➤ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Optimize local and property digital infrastructure by integrating operational tools like WordPress and PMS systems.")
+    emoji("➤ Advanced configuration and synchronization of Property Management Systems (PMS) with major OTA distribution networks."),
+    emoji("➤ Managing property inventory availability, complex room pricing tiers, and direct structural booking flows."),
+    emoji("➤ Setting up seamless connection configurations using channel managers like STAAH, Hotel Link, and Little Hotelier."),
+    emoji("➤ Optimizing real estate property data layouts on commercial endpoints to maximize conversion rates and guest acquisition."),
+    emoji("➤ Bridging regional hospitality infrastructure gaps by integrating modern digital reservation systems.")
   ],
   softwareSkills: [
-    { skillName: "wordpress", fontAwesomeClassname: "fab fa-wordpress" },
-    { skillName: "figma", fontAwesomeClassname: "fab fa-figma" },
-    { skillName: "bootstrap", fontAwesomeClassname: "fab fa-bootstrap" }
+    { skillName: "Property Systems", fontAwesomeClassname: "fas fa-hotel" }, // Representing PMS / OTA tools
+    { skillName: "Channel Manager", fontAwesomeClassname: "fas fa-concierge-bell" }, // Representing STAAH / Little Hotelier
+    { skillName: "Database Logistics", fontAwesomeClassname: "fas fa-network-wired" }
   ],
   display: true
 };
 
-// ==================== 2. KATEGORI SKILL: SEO & WEB OPTIMIZATION ====================
+// ==================== 2. SEO & WEB OPTIMIZATION ====================
 const skillsSection2 = {
   title: "SEO & Web Optimization",
-  subTitle: "Helps company to gain SEO keywords rank & tracking site performance",
+  subTitle: "Empowering businesses to scale organic keyword rankings, monitor search trends, and audit comprehensive technical site performance.",
   skills: [
-    emoji("➤ Deep optimization of organic target keywords to enhance search engine positions and scoring visibility."),
-    emoji("➤ Active performance tracking and error debugging utilizing industrial analytics platforms."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Monitor digital core metrics via comprehensive web utilities like Sitechecker, Search Console, and Ahrefs.")
+    emoji("➤ On-page and off-page semantic optimization targeting high-value commercial keywords to increase organic traffic."),
+    emoji("➤ Actively tracking core web vitals, indexation issues, and crawl errors using industry-grade analytical dashboards."),
+    emoji("➤ Managing site health scoring metrics, comprehensive backlinks architecture, and domain authority profiles."),
+    emoji("➤ Executing regular technological audits to patch rendering errors and enhance mobile responsiveness scoring."),
+    emoji("➤ Harnessing advanced platform analytics (Ahrefs, Google Search Console, Sitechecker) to formulate data-driven SEO strategy.")
   ],
   softwareSkills: [
-    { skillName: "google", fontAwesomeClassname: "fab fa-google" }
+    { skillName: "Google Search Console", fontAwesomeClassname: "fab fa-google" },
+    { skillName: "Ahrefs & Site Analytics", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "Technical SEO Audits", fontAwesomeClassname: "fas fa-search-plus" }
   ],
   display: true
 };
 
-// ==================== 3. KATEGORI SKILL: SOFTWARE TESTING & WEB3 ====================
+// ==================== 3. WEBSITE BUILDER ====================
 const skillsSection3 = {
-  title: "Website Testing & Bug Reporting",
-  subTitle: "Ensure beta application quality before its releases to published",
+  title: "Website Builder",
+  subTitle: "Building production-ready commercial platforms and maintaining high-performance digital presence using modern frameworks.",
   skills: [
-    emoji("➤ 6+ years of specialized functional testing experience for alpha and beta software architectures."),
-    emoji("➤ Advanced execution of snapshot processors and peer-ID data validation networks using Docker environments."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Passionate about exploring advanced tech stacks, optimization architectures, and decentralized structures."),
-    emoji("➤ Comprehensive stress-testing and smart contract simulation across Layer 1 and Layer 2 EVM token networks.")
+    emoji("➤ Developing structured responsive commercial websites with pixel-perfect accuracy using modern workspace layout engines."),
+    emoji("➤ Mapping structural layout responsive breakpoint systems to ensure fluidity across smart devices and large desktop monitors."),
+    emoji("➤ Launching customizable enterprise landing systems using headless CMS structures, WordPress layouts, and Framer infrastructure."),
+    emoji("➤ Rapid prototyping of technical web systems from wireframes into operational interactive web applications."),
+    emoji("➤ Maintaining web application performance via continuous stress-testing, layout optimization, and asset compression.")
   ],
   softwareSkills: [
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" }
+    { skillName: "WordPress", fontAwesomeClassname: "fab fa-wordpress" },
+    { skillName: "Moqups Wireframing", fontAwesomeClassname: "fas fa-pencil-ruler" }, // Wireframing symbol
+    { skillName: "Framer", fontAwesomeClassname: "fas fa-cubes" } // Clean workspace building block symbol
   ],
   display: true
 };
-
 // Education Section
 
 const educationInfo = {
