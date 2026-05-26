@@ -54,10 +54,10 @@ const skillsSection = {
     emoji("➤ Integrating automation software, bots, and modern SaaS tools to maximize standard operational efficiency.")
   ],
   softwareSkills: [
-    { skillName: "HTML5", fontAwesomeClassname: "vscode-icons:file-type-html" },
-    { skillName: "CSS3", fontAwesomeClassname: "vscode-icons:file-type-css" },
-    { skillName: "JavaScript", fontAwesomeClassname: "logos:javascript" }
-  ],
+  { skillName: "HTML5", fontAwesomeClassname: "vscode-icons:file-type-html" },
+  { skillName: "CSS3", fontAwesomeClassname: "vscode-icons:file-type-css" },
+  { skillName: "JavaScript", fontAwesomeClassname: "logos:javascript" }
+],
   display: true
 };
 
@@ -73,10 +73,10 @@ const skillsSection1 = {
     emoji("➤ Bridging regional hospitality infrastructure gaps by integrating modern digital reservation systems.")
   ],
   softwareSkills: [
-    { skillName: "Property Systems", fontAwesomeClassname: "fluent:building-hotel-24-filled" },
-    { skillName: "Channel Manager", fontAwesomeClassname: "fa-solid:concierge-bell" },
-    { skillName: "Database Logistics", fontAwesomeClassname: "fas:network-wired" }
-  ],
+  { skillName: "Property Systems", fontAwesomeClassname: "fluent:building-hotel-24-filled" },
+  { skillName: "Channel Manager", fontAwesomeClassname: "fa-solid:concierge-bell" },
+  { skillName: "Database Logistics", fontAwesomeClassname: "fa-solid:network-wired" }
+],
   display: true
 };
 
@@ -91,11 +91,10 @@ const skillsSection2 = {
     emoji("➤ Executing regular technological audits to patch rendering errors and enhance mobile responsiveness scoring."),
     emoji("➤ Harnessing advanced platform analytics (Ahrefs, Google Search Console, Sitechecker) to formulate data-driven SEO strategy.")
   ],
-  softwareSkills: [
-    { skillName: "Google Search Console", fontAwesomeClassname: "simple-icons:googlesearchconsole" },
-    { skillName: "Zapier Automation", fontAwesomeClassname: "simple-icons:zapier" },
-    { skillName: "Fillout Forms", fontAwesomeClassname: "simple-icons:fillout" }
-  ],
+ softwareSkills: [
+  { skillName: "Google Search Console", fontAwesomeClassname: "simple-icons:googlesearchconsole" },
+  { skillName: "Zapier Automation", fontAwesomeClassname: "simple-icons:zapier" }
+],
   display: true
 };
 
