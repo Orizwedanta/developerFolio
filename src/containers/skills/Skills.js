@@ -1,5 +1,5 @@
 import React, {useContext} from "react";
-import "./Progress.scss";
+import "./Skills.scss";
 import {techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
