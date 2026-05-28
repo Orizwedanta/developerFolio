@@ -181,23 +181,71 @@ const educationInfo = {
 
 // Your top 3 proficient stacks/tech experience
 
+// Your top 3 proficient stacks/tech experience variables with top 4 progress bars each
+
 const techStack = {
-  viewSkillBars: true, 
-  experience: [
+  viewSkillBars: true, // Set to false to hide this entire section
+  displayCodersrank: false,
+
+  // KATEGORI 1: TOOLS & SAAS PLATFORMS
+  toolsAndSaaS: [
     {
-      Stack: "Front-end", 
-      progressPercentage: "80%" 
+      Stack: "WordPress & Ecosystems",
+      progressPercentage: "90%"
     },
     {
-      Stack: "SEO Performance",
+      Stack: "Framer Design Engine",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Property Management Systems (PMS)",
       progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Botpress AI & Automation",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false 
+
+  // KATEGORI 2: DOMAIN EXPERTISE (GENERAL SKILLS)
+  domainExpertise: [
+    {
+      Stack: "Search Engine Optimization (SEO)",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Front End Web Architecture",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Hospitality Distribution Logistics",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Cross-Platform Application Workflow",
+      progressPercentage: "70%"
+    }
+  ],
+
+  // KATEGORI 3: CORE SPECIFIC SKILLS
+  coreSpecificSkills: [
+    {
+      Stack: "Technical Site Auditing & Tracking",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "OTA Distribution & Revenue Management",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Responsive UI/UX Development",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Conversational Logic Routing & NLP",
+      progressPercentage: "70%"
+    }
+  ]
 };
 
 // Work experience section
