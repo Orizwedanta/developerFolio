@@ -1,73 +1,67 @@
 import React, {useContext} from "react";
 import "./Skills.scss";
-import {techStack} from "../../portfolio";
+import {
+  skillsSection,
+  skillsSection1,
+  skillsSection2,
+  skillsSection3
+} from "../../portfolio";
 import {Fade} from "react-reveal";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import codingPerson from "../../assets/lottie/codingPerson";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Progress() {
+// Import komponen progress bar 3 kategori (Pastikan namanya sesuai di foldermu)
+import StackProgress from "./Progress"; 
+
+export default function Skills() {
   const {isDark} = useContext(StyleContext);
 
-  if (!techStack.viewSkillBars) {
-    return null;
-  }
+  // Helper function untuk merender layout baris section skill secara konsisten
+  const renderSkillRow = (sectionData) => {
+    if (!sectionData.display) return null;
 
-  // Fungsi pembantu untuk merender progress bar secara bersih
-  const renderBars = (skillsArray) => {
-    return skillsArray.map((skill, i) => (
-      <div key={i} className="progress-bar-container">
-        <p className={isDark ? "dark-mode progress-bar-text" : "progress-bar-text"}>
-          {skill.Stack}
-        </p>
-        <div className="progress">
-          <div
-            className="progress-bar-fill"
-            style={{ width: skill.progressPercentage }}
-          ></div>
+    return (
+      <div className="skills-container">
+        <div className="skills-image">
+          <DisplayLottie animationData={codingPerson} />
+        </div>
+        <div className="skills-bar">
+          <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>
+            {sectionData.title}
+          </h1>
+          <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
+            {sectionData.subTitle}
+          </p>
+          <SoftwareSkill logos={sectionData.softwareSkills} />
+          <div className="skills-list-lines">
+            {sectionData.skills.map((skill, index) => (
+              <p
+                key={index}
+                className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}
+              >
+                {skill}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
-    ));
+    );
   };
 
   return (
-    <Fade right duration={1000}>
-      <div className="skills-container">
-        <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>
-          Proficiency
-        </h1>
-        
-        <div className="proficiency-sections-grid">
-          {/* VARIABEL 1: TOOLS & SAAS */}
-          {techStack.toolsAndSaaS && (
-            <div className="proficiency-block">
-              <h3 className={isDark ? "dark-mode proficiency-sub" : "proficiency-sub"}>
-                🛠️ SaaS & Tech Tools
-              </h3>
-              {renderBars(techStack.toolsAndSaaS)}
-            </div>
-          )}
+    <div id="skills">
+      <Fade bottom duration={1000} distance="20px">
+        {/* MERENDER 4 SECTION DI RESUME SECARA BERURUTAN */}
+        {renderSkillRow(skillsSection)}
+        {renderSkillRow(skillsSection1)}
+        {renderSkillRow(skillsSection2)}
+        {renderSkillRow(skillsSection3)}
 
-          {/* VARIABEL 2: DOMAIN EXPERTISE */}
-          {techStack.domainExpertise && (
-            <div className="proficiency-block">
-              <h3 className={isDark ? "dark-mode proficiency-sub" : "proficiency-sub"}>
-                🌍 Domain Expertise
-              </h3>
-              {renderBars(techStack.domainExpertise)}
-            </div>
-          )}
-
-          {/* VARIABEL 3: CORE SPECIFIC SKILLS */}
-          {techStack.coreSpecificSkills && (
-            <div className="proficiency-block">
-              <h3 className={isDark ? "dark-mode proficiency-sub" : "proficiency-sub"}>
-                🎯 Core Specific Skills
-              </h3>
-              {renderBars(techStack.coreSpecificSkills)}
-            </div>
-          )}
-        </div>
-
-      </div>
-    </Fade>
+        {/* SECTION PROFICIENCY HANYA DIPANGGIL SEKALI DI SINI */}
+        <StackProgress />
+      </Fade>
+    </div>
   );
 }
