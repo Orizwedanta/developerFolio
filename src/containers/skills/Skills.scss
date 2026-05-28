@@ -30,47 +30,65 @@
 }
 
 /* ==========================================================================
-   KODE BARU: MENGATUR ICON VIEW VERTIKAL (IKON KIRI, TEKS KANAN)
+   PERBAIKAN: PAKSA HORIZONTAL & PERBESAR UKURAN IKONIFY
    ========================================================================== */
 .software-skills-main-div {
   display: flex;
+  justify-content: flex-start;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .dev-icons {
-  display: flex;
-  flex-direction: column; /* Mengunci daftar agar berbaris vertikal ke bawah */
-  gap: 16px;              /* Memberikan jarak hemat ruang antar baris */
-  padding-left: 0;        /* Menghilangkan kompensasi list bawaan HTML */
-  list-style: none;       /* Menghilangkan bulatan (•) hitam hantu */
-  margin: 0;
-  width: 100%;
+  display: flex !important;
+  flex-direction: row !important; /* Paksa berjajar ke samping */
+  flex-wrap: wrap !important;     /* Otomatis turun ke baris baru jika penuh */
+  list-style: none !important;    /* Hilangkan titik hitam list */
+  padding: 0 !important;
+  margin: 0 !important;
 
   .software-skill-inline {
-    display: flex;
-    flex-direction: row !important; /* Mengunci Ikon di kiri dan Teks di kanan */
-    align-items: center;            /* Membuat posisi ikon dan teks sejajar di tengah */
-    list-style-type: none !important; /* Memastikan bulatan hitam benar-benar hilang */
-    
-    span.iconify {
-      font-size: 36px !important;    /* Ukuran ikon proporsional */
-      min-width: 40px;               /* Mengunci ruang agar teks di kanan tidak menabrak */
-      display: inline-block;
-      color: #555555;
+    display: flex !important;
+    flex-direction: column !important; /* Teks nama berada DI BAWAH ikon */
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 35px !important;     /* Jarak antar ikon ke samping */
+    margin-bottom: 20px !important;    /* Jarak antar ikon ke bawah jika wrap */
+    text-align: center;
+    list-style-type: none !important;
+
+    /* Menghapus bullet point tersembunyi */
+    &::before {
+      content: none !important;
     }
 
+    /* Memperbesar ukuran SVG Iconify */
+    span.iconify, svg {
+      font-size: 45px !important; /* Diperbesar dari bawaan agar proporsional */
+      width: 45px !important;
+      height: 45px !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    /* Pengaturan teks di bawah ikon */
     p {
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 13px;
       font-weight: 500;
-      color: inherit;               /* Menyesuaikan warna teks saat dark mode */
+      margin-top: 8px !important; /* Jarak atas teks ke ikon */
+      color: inherit;
+    }
+
+    &:hover {
+      span.iconify, svg {
+        transform: scale(1.15);
+      }
     }
   }
 }
 
-/* Media Query */
+/* Media Queries untuk Tampilan Responsif (HP & Tablet) */
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
@@ -82,10 +100,6 @@
     font-size: 30px;
     text-align: center;
   }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-  }
   .skills-main-div {
     flex-direction: column;
   }
@@ -93,17 +107,17 @@
     margin-left: 0px;
     margin: 20px;
   }
-  .skills-text {
-    font-size: 16px;
-  }
   .skills-text-subtitle {
-    font-size: 16px;
     text-align: center;
   }
   .skills-image-div {
     order: 2;
   }
-  .dev-icons .software-skill-inline {
-    justify-content: flex-start; /* Tetap rata kiri meskipun di layar HP */
+  .dev-icons {
+    justify-content: center !important; /* Rata tengah di layar HP */
+    .software-skill-inline {
+      margin-right: 15px !important;
+      margin-left: 15px !important;
+    }
   }
 }
