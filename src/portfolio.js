@@ -267,7 +267,7 @@ const workExperiences = {
     {
       role: "Reservation & Support Administrator",
       company: "U & I Holidays",
-      companylogo:"https://docs.google.com/uc?export=download&id=1jyH8MVadnvlQZw82tPIhl89pLNG34vtn",
+      companylogo:require("./assets/images/uiholidays.png"),
       date: "February 2023 – November 2024",
       desc: "The Reservation System serves as the central hub for managing property inventory, live availability, and guest bookings guidance.",
        descBullets: [
