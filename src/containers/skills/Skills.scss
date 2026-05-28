@@ -30,58 +30,65 @@
 }
 
 /* ==========================================================================
-   KODE BARU: MENGEMBALIKAN ICON VIEW HORIZONTAL DAN MEMPERBESAR UKURAN
+   PERBAIKAN: PAKSA HORIZONTAL & PERBESAR UKURAN IKONIFY
    ========================================================================== */
 .software-skills-main-div {
   display: flex;
-  justify-content: flex-start; /* Mengunci rata kiri agar hemat ruang di kanan */
-  margin-top: 20px;
-  margin-bottom: 20px;
+  justify-content: flex-start;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .dev-icons {
-  display: flex;
-  flex-wrap: wrap; /* Membuat ikon melipat otomatis ke baris baru jika penuh */
-  flex-direction: row !important; /* Paksa berjajar horizontal ke samping */
-  padding-left: 0;
-  list-style: none; /* Mematikan titik hitam bulet list bawaan */
-  margin: 0;
+  display: flex !important;
+  flex-direction: row !important; /* Paksa berjajar ke samping */
+  flex-wrap: wrap !important;     /* Otomatis turun ke baris baru jika penuh */
+  list-style: none !important;    /* Hilangkan titik hitam list */
+  padding: 0 !important;
+  margin: 0 !important;
 
   .software-skill-inline {
-    display: flex;
-    flex-direction: column; /* Nama teks diletakkan tepat DI BAWAH ikon */
-    align-items: center;
-    margin-right: 35px; /* Jarak horizontal antar ikon agar tidak menempel */
-    margin-bottom: 25px; /* Jarak vertikal jika ikon melipat ke baris baru */
+    display: flex !important;
+    flex-direction: column !important; /* Teks nama berada DI BAWAH ikon */
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 35px !important;     /* Jarak antar ikon ke samping */
+    margin-bottom: 20px !important;    /* Jarak antar ikon ke bawah jika wrap */
     text-align: center;
-    cursor: pointer;
+    list-style-type: none !important;
 
-    /* Memperbesar ukuran Ikonify agar tidak terlihat kecil */
-    span.iconify {
-      font-size: 48px !important; /* Ukuran diperbesar dari 32px ke 48px agar proporsional */
-      color: inherit;
+    /* Menghapus bullet point tersembunyi */
+    &::before {
+      content: none !important;
+    }
+
+    /* Memperbesar ukuran SVG Iconify */
+    span.iconify, svg {
+      font-size: 45px !important; /* Diperbesar dari bawaan agar proporsional */
+      width: 45px !important;
+      height: 45px !important;
       transition: all 0.2s ease-in-out;
     }
 
+    /* Pengaturan teks di bawah ikon */
     p {
-      margin: 0;
-      padding: 0;
-      font-size: 14px;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 13px;
       font-weight: 500;
-      margin-top: 8px; /* Jarak teks dari bagian bawah ikon */
+      margin-top: 8px !important; /* Jarak atas teks ke ikon */
       color: inherit;
     }
 
-    /* Efek hover standar */
     &:hover {
-      span {
-        transform: scale(1.1);
+      span.iconify, svg {
+        transform: scale(1.15);
       }
     }
   }
 }
 
-/* Media Query Responsif */
+/* Media Queries untuk Tampilan Responsif (HP & Tablet) */
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
@@ -93,10 +100,6 @@
     font-size: 30px;
     text-align: center;
   }
-  .greeting-text-p {
-    font-size: 16px;
-    line-height: normal;
-  }
   .skills-main-div {
     flex-direction: column;
   }
@@ -104,21 +107,17 @@
     margin-left: 0px;
     margin: 20px;
   }
-  .skills-text {
-    font-size: 16px;
-  }
   .skills-text-subtitle {
-    font-size: 16px;
     text-align: center;
   }
   .skills-image-div {
     order: 2;
   }
   .dev-icons {
-    justify-content: center; /* Pada layar HP, ikon rata tengah agar rapi */
+    justify-content: center !important; /* Rata tengah di layar HP */
     .software-skill-inline {
-      margin-right: 15px; /* Jarak dikurangi pada HP */
-      margin-left: 15px;
+      margin-right: 15px !important;
+      margin-left: 15px !important;
     }
   }
 }
