@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from "react";
+import React, {useContext} from "react";
 import "./Skills.scss";
 import {illustration, skillsSection, skillsSection1, skillsSection2, skillsSection3} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -6,7 +6,7 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-// Fungsi lokal untuk merender Iconify secara langsung
+// Fungsi lokal merender Iconify secara aman tanpa fungsi .scan()
 function RenderIconifySkills({ logos }) {
   return (
     <div className="software-skills-main-div">
@@ -31,13 +31,6 @@ function RenderIconifySkills({ logos }) {
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
-
-  // Memaksa Iconify melakukan re-scan DOM setelah komponen berhasil dimuat oleh React
-  useEffect(() => {
-    if (window.Iconify) {
-      window.Iconify.scan();
-    }
-  }, []);
 
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
