@@ -1,39 +1,33 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Skills.scss";
-import {illustration, skillsSection, skillsSection1, skillsSection2, skillsSection3} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, skillsSection, skillsSection1, skillsSection2, skillsSection3 } from "../../portfolio";
+import { Fade } from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
-
-// GANTI IMPORT SEBELUMNYA DENGAN INI:
 import SkillProgress from "../skillProgress/skillProgress";
 
-// Komponen Pembantu Khusus Render Ikonify Secara Horizontal
 function RenderSoftwareSkills({ logos }) {
   return (
     <div className="software-skills-main-div">
       <ul className="dev-icons">
-        {logos.map((logo, i) => {
-          return (
-            <li key={i} className="software-skill-inline" name={logo.skillName}>
-              <span
-                className="iconify"
-                data-icon={logo.fontAwesomeClassname}
-                data-inline="false"
-              ></span>
-              <p>{logo.skillName}</p>
-            </li>
-          );
-        })}
+        {logos.map((logo, i) => (
+          <li key={i} className="software-skill-inline" name={logo.skillName}>
+            <span
+              className="iconify"
+              data-icon={logo.fontAwesomeClassname}
+              data-inline="false"
+            ></span>
+            <p>{logo.skillName}</p>
+          </li>
+        ))}
       </ul>
     </div>
   );
 }
 
 export default function Skills() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
@@ -60,13 +54,11 @@ export default function Skills() {
               </p>
               <RenderSoftwareSkills logos={skillsSection.softwareSkills} />
               <div>
-                {skillsSection.skills && skillsSection.skills.map((skills, i) => {
-                  return (
-                    <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
-                      {skills}
-                    </p>
-                  );
-                })}
+                {skillsSection.skills && skillsSection.skills.map((skills, i) => (
+                  <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
+                    {skills}
+                  </p>
+                ))}
               </div>
             </div>
           </Fade>
@@ -95,13 +87,11 @@ export default function Skills() {
               </p>
               <RenderSoftwareSkills logos={skillsSection1.softwareSkills} />
               <div>
-                {skillsSection1.skills && skillsSection1.skills.map((skills, i) => {
-                  return (
-                    <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
-                      {skills}
-                    </p>
-                  );
-                })}
+                {skillsSection1.skills && skillsSection1.skills.map((skills, i) => (
+                  <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
+                    {skills}
+                  </p>
+                ))}
               </div>
             </div>
           </Fade>
@@ -130,13 +120,11 @@ export default function Skills() {
               </p>
               <RenderSoftwareSkills logos={skillsSection2.softwareSkills} />
               <div>
-                {skillsSection2.skills && skillsSection2.skills.map((skills, i) => {
-                  return (
-                    <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
-                      {skills}
-                    </p>
-                  );
-                })}
+                {skillsSection2.skills && skillsSection2.skills.map((skills, i) => (
+                  <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
+                    {skills}
+                  </p>
+                ))}
               </div>
             </div>
           </Fade>
@@ -165,20 +153,18 @@ export default function Skills() {
               </p>
               <RenderSoftwareSkills logos={skillsSection3.softwareSkills} />
               <div>
-                {skillsSection3.skills && skillsSection3.skills.map((skills, i) => {
-                  return (
-                    <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
-                      {skills}
-                    </p>
-                  );
-                })}
+                {skillsSection3.skills && skillsSection3.skills.map((skills, i) => (
+                  <p key={i} className={isDark ? "dark-mode subTitle skills-text" : "subTitle skills-text"}>
+                    {skills}
+                  </p>
+                ))}
               </div>
             </div>
           </Fade>
         </div>
       )}
 
-      {/* PANGGIL KEMBALI DI SINI AGAR MUNCUL DI PALING BAWAH */}
+      {/* PROFICIENCY PROGRESS BAR - HANYA SEKALI */}
       <SkillProgress />
 
     </div>
