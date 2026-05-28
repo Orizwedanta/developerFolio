@@ -6,7 +6,6 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-// Fungsi lokal merender Iconify secara aman tanpa fungsi .scan()
 function RenderIconifySkills({ logos }) {
   return (
     <div className="software-skills-main-div">
@@ -17,7 +16,6 @@ function RenderIconifySkills({ logos }) {
               <span
                 className="iconify"
                 data-icon={logo.fontAwesomeClassname}
-                style={{ fontSize: "45px" }}
                 data-inline="false"
               ></span>
               <p>{logo.skillName}</p>
@@ -35,9 +33,9 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       
-      {/* ==================== SECTION 0: FRONT END ==================== */}
+      {/* SECTION 1: FRONT END & ANDROID DEVELOPER */}
       {skillsSection && skillsSection.display && (
-        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
+        <div className="skills-main-div">
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
@@ -70,9 +68,9 @@ export default function Skills() {
         </div>
       )}
 
-      {/* ==================== SECTION 1: HOSPITALITY ==================== */}
+      {/* SECTION 2: HOSPITALITY ADMINISTRATOR */}
       {skillsSection1 && skillsSection1.display && (
-        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
+        <div className="skills-main-div">
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
@@ -105,9 +103,9 @@ export default function Skills() {
         </div>
       )}
 
-      {/* ==================== SECTION 2: SEO ==================== */}
+      {/* SECTION 3: SEO & WEB OPTIMIZATION */}
       {skillsSection2 && skillsSection2.display && (
-        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
+        <div className="skills-main-div">
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
@@ -140,9 +138,9 @@ export default function Skills() {
         </div>
       )}
 
-      {/* ==================== SECTION 3: WEBSITE BUILDER ==================== */}
+      {/* SECTION 4: WEBSITE BUILDER */}
       {skillsSection3 && skillsSection3.display && (
-        <div className="skills-main-div" style={{ marginBottom: "60px" }}>
+        <div className="skills-main-div">
           <Fade left duration={1000}>
             <div className="skills-image-div">
               {illustration.animated ? (
