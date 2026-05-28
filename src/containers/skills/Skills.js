@@ -6,6 +6,9 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
+// AMBIL INDUK DARI KOMPONEN PROGRESS BAR (Pastikan nama file Anda StackProgress.js)
+import StackProgress from "./StackProgress"; 
+
 // Komponen Pembantu Khusus Render Ikonify Secara Horizontal
 function RenderSoftwareSkills({ logos }) {
   return (
@@ -173,6 +176,9 @@ export default function Skills() {
           </Fade>
         </div>
       )}
+
+      {/* PANGGIL KEMBALI DI SINI AGAR MUNCUL DI PALING BAWAH */}
+      <StackProgress />
 
     </div>
   );
