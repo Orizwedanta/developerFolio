@@ -42,9 +42,9 @@ const socialMediaLinks = {
 
 // Skills Section
 
-// ==================== 0. FRONT END & SEO SPECIALIST ====================
+// ==================== 0. FRONT END & ANDROID DEVELOPER ====================
 const skillsSection = {
-  title: "Front End Developer", // Mengganti Title agar sinkron dengan Android Studio & XML
+  title: "Front End & Android Developer", 
   subTitle: "Developing, maintaining, and configuring commercial site user interfaces using SaaS and modern project management workflows.",
   skills: [
     "Developing structured responsive commercial web & mobile layouts.",
@@ -67,7 +67,7 @@ const skillsSection = {
   display: true
 };
 
-// SECTION 2: HOSPITALITY ADMINISTRATOR (Ikon Airbnb & Teks OTA's)
+// ==================== 1. HOSPITALITY ADMINISTRATOR ====================
 const skillsSection1 = {
   title: "Hospitality Administrator",
   subTitle: "Helping real estate and travel agencies maximize distribution by connecting Online Travel Agencies (OTAs) through Property Management Systems.",
@@ -77,21 +77,45 @@ const skillsSection1 = {
   softwareSkills: [
     {
       skillName: "Channel Manager",
-      fontAwesomeClassname: "octicon:database-24"
+      fontAwesomeClassname: "fluent:box-edit-24-regular"
     },
     {
       skillName: "Reservation Systems",
       fontAwesomeClassname: "simple-icons:fillout"
     },
     {
-      skillName: "OTA's", // Menambahkan Airbnb
-      fontAwesomeClassname: "logos:airbnb-icon"
+      skillName: "OTA's", 
+      fontAwesomeClassname: "logos:airbnb-icon" // Airbnb Icon untuk OTA's sesuai request
     }
   ],
   display: true
 };
 
-// SECTION 4: WEBSITE BUILDER (Mengubah Botpress AI menjadi Bot)
+// ==================== 2. SEO & WEB OPTIMIZATION ====================
+const skillsSection2 = {
+  title: "SEO & Web Optimization",
+  subTitle: "Empowering businesses to scale organic keyword rankings, monitor search trends, and audit comprehensive technical site performance.",
+  skills: [
+    "Empowering businesses to scale organic keyword rankings, monitor search trends, and audit comprehensive technical site performance."
+  ],
+  softwareSkills: [
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "vscode-icons:file-type-html"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "vscode-icons:file-type-css"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "logos:javascript"
+    }
+  ],
+  display: true
+};
+
+// ==================== 3. WEBSITE BUILDER ====================
 const skillsSection3 = {
   title: "Website Builder",
   subTitle: "Building production-ready commercial platforms and maintaining high-performance digital presence using modern frameworks.",
@@ -113,7 +137,7 @@ const skillsSection3 = {
     },
     {
       skillName: "Botpress", // Menghilangkan kata AI
-      fontAwesomeClassname: "fluent:bot-24-regular" // Mengganti ikon ke Icon Bot murni
+      fontAwesomeClassname: "fluent:bot-24-regular" // Menggunakan ikon robot murni
     }
   ],
   display: true
@@ -122,7 +146,7 @@ const skillsSection3 = {
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, 
   schools: [
     {
       schoolName: "Harvard University",
@@ -149,11 +173,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, 
   experience: [
     {
-      Stack: "Front-end", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Front-end", 
+      progressPercentage: "80%" 
     },
     {
       Stack: "SEO Performance",
@@ -164,13 +188,13 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false 
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, 
   experience: [
     {
       role: "Software Engineer",
@@ -204,8 +228,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true", 
+  display: true 
 };
 
 // Some big projects you have worked on
@@ -223,7 +247,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -238,7 +261,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Achievement Section
@@ -294,7 +317,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Blogs Section
@@ -302,7 +325,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true", 
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -315,7 +338,7 @@ const blogSection = {
       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Talks Sections
@@ -331,7 +354,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Podcast Section
@@ -342,14 +365,14 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 const contactInfo = {
@@ -360,13 +383,12 @@ const contactInfo = {
 };
 
 // Twitter Section
-
 const twitterDetails = {
-  userName: "orizwedanta", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "orizwedanta", 
+  display: false // Tetap dimatikan (false) agar tidak memicu kerusakan innerHTML null global
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; 
 
 export {
   illustration,
