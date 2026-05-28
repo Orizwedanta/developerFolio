@@ -24,8 +24,50 @@
   font-size: 56px;
   font-weight: 400;
 }
+
 .subTitle {
   color: $subTitle;
+}
+
+/* ==========================================================================
+   KODE BARU: MENGATUR ICON VIEW VERTIKAL (IKON KIRI, TEKS KANAN)
+   ========================================================================== */
+.software-skills-main-div {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dev-icons {
+  display: flex;
+  flex-direction: column; /* Mengunci daftar agar berbaris vertikal ke bawah */
+  gap: 16px;              /* Memberikan jarak hemat ruang antar baris */
+  padding-left: 0;        /* Menghilangkan kompensasi list bawaan HTML */
+  list-style: none;       /* Menghilangkan bulatan (•) hitam hantu */
+  margin: 0;
+  width: 100%;
+
+  .software-skill-inline {
+    display: flex;
+    flex-direction: row !important; /* Mengunci Ikon di kiri dan Teks di kanan */
+    align-items: center;            /* Membuat posisi ikon dan teks sejajar di tengah */
+    list-style-type: none !important; /* Memastikan bulatan hitam benar-benar hilang */
+    
+    span.iconify {
+      font-size: 36px !important;    /* Ukuran ikon proporsional */
+      min-width: 40px;               /* Mengunci ruang agar teks di kanan tidak menabrak */
+      display: inline-block;
+      color: #555555;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      font-weight: 500;
+      color: inherit;               /* Menyesuaikan warna teks saat dark mode */
+    }
+  }
 }
 
 /* Media Query */
@@ -34,6 +76,7 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .skills-heading {
     font-size: 30px;
@@ -58,7 +101,9 @@
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
     order: 2;
+  }
+  .dev-icons .software-skill-inline {
+    justify-content: flex-start; /* Tetap rata kiri meskipun di layar HP */
   }
 }
