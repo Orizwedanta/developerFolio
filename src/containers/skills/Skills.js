@@ -13,7 +13,7 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import StyleContext from "../../contexts/StyleContext";
 
 // Import komponen progress bar 3 kategori (Pastikan namanya sesuai di foldermu)
-import StackProgress from "./StackProgress"; 
+/*import StackProgress from "./StackProgress";*/ 
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
