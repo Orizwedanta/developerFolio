@@ -40,15 +40,17 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-// Skills Section
+// Skills Sections
 
-// ==================== 0. FRONT END & ANDROID DEVELOPER ====================
+// ==================== 1. FRONT END & ANDROID DEVELOPER ====================
 const skillsSection = {
   title: "Front End & Android Developer", 
   subTitle: "Developing, maintaining, and configuring commercial site user interfaces using SaaS and modern project management workflows.",
   skills: [
-    "Developing structured responsive commercial web & mobile layouts.",
-    "Designing pixel-perfect accuracy interfaces across platforms."
+    emoji("➤ Developing structured, highly responsive layouts for commercial web applications and cross-platform mobile environments."),
+    emoji("➤ Designing pixel-perfect accuracy user interfaces, guaranteeing seamless multi-device rendering and cross-browser compatibility."),
+    emoji("➤ Building native Android components and layouts optimized for performance using XML and robust platform development environments."),
+    emoji("➤ Managing state synchronization, API endpoints connectivity, and modern component lifecycle states on client interfaces.")
   ],
   softwareSkills: [
     {
@@ -67,12 +69,16 @@ const skillsSection = {
   display: true
 };
 
-// ==================== 1. HOSPITALITY ADMINISTRATOR ====================
+// ==================== 2. HOSPITALITY ADMINISTRATOR ====================
 const skillsSection1 = {
   title: "Hospitality Administrator",
   subTitle: "Helping real estate and travel agencies maximize distribution by connecting Online Travel Agencies (OTAs) through Property Management Systems.",
   skills: [
-    "Advanced configuration and synchronization of Property Management Systems (PMS) with major OTA distribution networks."
+    emoji("➤ Advanced configuration and synchronization of Property Management Systems (PMS) with major OTA distribution networks."),
+    emoji("➤ Managing property inventory availability, complex room pricing tiers, and direct structural booking flows."),
+    emoji("➤ Setting up seamless connection configurations using channel managers like STAAH, Hotel Link, and Little Hotelier."),
+    emoji("➤ Optimizing real estate property data layouts on commercial endpoints to maximize conversion rates and guest acquisition."),
+    emoji("➤ Bridging regional hospitality infrastructure gaps by integrating modern digital reservation systems.")
   ],
   softwareSkills: [
     {
@@ -91,12 +97,15 @@ const skillsSection1 = {
   display: true
 };
 
-// ==================== 2. SEO & WEB OPTIMIZATION ====================
+// ==================== 3. SEO & WEB OPTIMIZATION ====================
 const skillsSection2 = {
   title: "SEO & Web Optimization",
   subTitle: "Empowering businesses to scale organic keyword rankings, monitor search trends, and audit comprehensive technical site performance.",
   skills: [
-    "Empowering businesses to scale organic keyword rankings, monitor search trends, and audit comprehensive technical site performance."
+    emoji("➤ Engineering technical site architectures optimized for semantic crawlability, indexing reliability, and high structural Core Web Vitals score."),
+    emoji("➤ Conducting structured on-page target keyword maps, competitor backlink profiling, and search intent gap assessments to scale visibility."),
+    emoji("➤ Designing multi-tiered backlink acquisition frameworks and internal linking networks that securely distribute search engine page rank."),
+    emoji("➤ Integrating automated tracking funnels via Google Search Console and Zapier to trigger performance alerts on critical traffic fluctuations.")
   ],
   softwareSkills: [
     {
@@ -111,12 +120,16 @@ const skillsSection2 = {
   display: true
 };
 
-// ==================== 3. WEBSITE BUILDER ====================
+// ==================== 4. WEBSITE BUILDER ====================
 const skillsSection3 = {
   title: "Website Builder",
   subTitle: "Building production-ready commercial platforms and maintaining high-performance digital presence using modern frameworks.",
   skills: [
-    "Developing structured responsive commercial websites with pixel-perfect accuracy."
+    "➤ Building production-ready websites and highly customized digital structures tailored to commercial brand deployment pipelines.",
+    "➤ Administering content management ecosystems, secure database instances, theme hierarchies, and active plugin nodes on WordPress.",
+    "➤ Transforming interactive prototype drafts and layout wires into fully production-grade, highly responsive web interfaces in Framer.",
+    "➤ Conceptualizing and drawing architectural user workflows, interactive screen blueprints, and low-fidelity interface wireframes within Moqups.",
+    "➤ Programming conversational automated interfaces and custom logic routers using the modular, AI-ready Botpress development node environment."
   ],
   softwareSkills: [
     {
