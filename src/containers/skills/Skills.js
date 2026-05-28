@@ -6,7 +6,8 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-function RenderIconifySkills({ logos }) {
+// Komponen Pembantu Khusus Render Ikonify Secara Horizontal
+function RenderSoftwareSkills({ logos }) {
   return (
     <div className="software-skills-main-div">
       <ul className="dev-icons">
@@ -41,7 +42,7 @@ export default function Skills() {
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
+                <img alt="Man Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -53,7 +54,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection.subTitle}
               </p>
-              <RenderIconifySkills logos={skillsSection.softwareSkills} />
+              <RenderSoftwareSkills logos={skillsSection.softwareSkills} />
               <div>
                 {skillsSection.skills && skillsSection.skills.map((skills, i) => {
                   return (
@@ -76,7 +77,7 @@ export default function Skills() {
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
+                <img alt="Man Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -88,7 +89,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection1.subTitle}
               </p>
-              <RenderIconifySkills logos={skillsSection1.softwareSkills} />
+              <RenderSoftwareSkills logos={skillsSection1.softwareSkills} />
               <div>
                 {skillsSection1.skills && skillsSection1.skills.map((skills, i) => {
                   return (
@@ -111,7 +112,7 @@ export default function Skills() {
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
+                <img alt="Man Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -123,7 +124,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection2.subTitle}
               </p>
-              <RenderIconifySkills logos={skillsSection2.softwareSkills} />
+              <RenderSoftwareSkills logos={skillsSection2.softwareSkills} />
               <div>
                 {skillsSection2.skills && skillsSection2.skills.map((skills, i) => {
                   return (
@@ -146,7 +147,7 @@ export default function Skills() {
               {illustration.animated ? (
                 <DisplayLottie animationData={codingPerson} />
               ) : (
-                <img alt="Working" src={require("../../assets/images/developerActivity.svg")} />
+                <img alt="Man Working" src={require("../../assets/images/developerActivity.svg")} />
               )}
             </div>
           </Fade>
@@ -158,7 +159,7 @@ export default function Skills() {
               <p className={isDark ? "dark-mode subTitle skills-text-subtitle" : "subTitle skills-text-subtitle"}>
                 {skillsSection3.subTitle}
               </p>
-              <RenderIconifySkills logos={skillsSection3.softwareSkills} />
+              <RenderSoftwareSkills logos={skillsSection3.softwareSkills} />
               <div>
                 {skillsSection3.skills && skillsSection3.skills.map((skills, i) => {
                   return (
