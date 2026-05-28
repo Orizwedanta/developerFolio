@@ -188,20 +188,22 @@ const techStack = {
   // KATEGORI 1: TOOLS & SAAS PLATFORMS
   toolsAndSaaS: [
     {
-      Stack: "WordPress & Ecosystems",
-      progressPercentage: "90%"
+      Stack: "WordPress & Ecosystems"
     },
     {
-      Stack: "Framer Design Engine",
-      progressPercentage: "85%"
+      Stack: "Framer Design Engine"
     },
     {
-      Stack: "Property Management Systems (PMS)",
-      progressPercentage: "80%"
+      Stack: "Zapier Integration & Automation"
     },
     {
-      Stack: "Botpress AI & Automation",
-      progressPercentage: "75%"
+      Stack: "Tableau Analytics"
+    },
+    {
+      Stack: "Property Management Systems (PMS)"
+    },
+    {
+      Stack: "Botpress AI & Automation"
     }
   ],
 
@@ -251,14 +253,15 @@ const workExperiences = {
   display: true, 
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT & Web Specialist",
+      company: "The Luxury Leisure",
+      companylogo: "https://docs.google.com/uc?export=download&id=1NfH1UDh9pfJnTNybDKNGlYSCAWY0u-dQ",
+      date: "December 2024 – Present",
+      desc: "Helps the travel agency company by configure, monitorize, & also maintain their commercials websites related to real estate property agency & partners.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Track & monitor the websites performance using Sitechecker",
+        "Develop and repair the bugs of front end for each responsive view interface and user experience",
+        "Developing automation for reservation flow"
       ]
     },
     {
@@ -376,7 +379,7 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
+/*const blogSection = {
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", 
@@ -393,34 +396,11 @@ const blogSection = {
     }
   ],
   display: true 
-};
+};*/
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true 
-};
-
 // Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true 
-};
 
 // Resume Section
 const resumeSection = {
@@ -430,7 +410,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Get In Touch ☎️"),
   subtitle: "Discuss a project? Feel free to contact me.",
   number: "+6287860441732",
   email_address: "oriz.wedanta@gmail.com"
