@@ -265,11 +265,16 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Reservation & Support Administrator",
+      company: "U & I Holidays",
+      companylogo:"https://docs.google.com/uc?export=download&id=1jyH8MVadnvlQZw82tPIhl89pLNG34vtn",
+      date: "February 2023 – November 2024",
+      desc: "The Reservation System serves as the central hub for managing property inventory, live availability, and guest bookings guidance.",
+       descBullets: [
+        "Instantly updates trip availability and fulfill bookings itinerary across guest itinerary database and internal systems",
+        "Streamlines the reservation process by instantly processing guest trip agenda, verifying booking details",
+        "Consolidates guest profiles, arrival schedules, and financial transactions into a single dashboard"
+      ]
     },
     {
       role: "Software Engineer Intern",
