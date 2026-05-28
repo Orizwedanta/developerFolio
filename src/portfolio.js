@@ -6,7 +6,6 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
-
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
@@ -14,7 +13,6 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -31,7 +29,6 @@ const greeting = {
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/orizwedanta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
@@ -41,7 +38,6 @@ const socialMediaLinks = {
 };
 
 // Skills Sections
-
 // ==================== 1. FRONT END & ANDROID DEVELOPER ====================
 const skillsSection = {
   title: "Front End & Android Developer", 
@@ -153,7 +149,6 @@ const skillsSection3 = {
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, 
   schools: [
@@ -180,30 +175,35 @@ const educationInfo = {
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, // WAJIB TRUE agar section ini dirender
   displayCodersrank: false,
 
-  // KATEGORI 1: TOOLS & SAAS PLATFORMS
+  // KATEGORI 1: TOOLS & SAAS PLATFORMS (Ditambahkan persentase default 75%-90% agar bar menyala panjang)
   toolsAndSaaS: [
     {
-      Stack: "WordPress & Ecosystems"
+      Stack: "WordPress & Ecosystems",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Framer Design Engine"
+      Stack: "Framer Design Engine",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Zapier Integration & Automation"
+      Stack: "Zapier Integration & Automation",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Tableau Analytics"
+      Stack: "Tableau Analytics",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Property Management Systems (PMS)"
+      Stack: "Property Management Systems (PMS)",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Botpress AI & Automation"
+      Stack: "Botpress AI & Automation",
+      progressPercentage: "75%"
     }
   ],
 
@@ -247,8 +247,8 @@ const techStack = {
     }
   ]
 };
-// Work experience section
 
+// Work experience section
 const workExperiences = {
   display: true, 
   experience: [
@@ -286,16 +286,13 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
+/* Your Open Source Section to View Your Github Pinned Projects */
 const openSource = {
   showGithubProfile: "true", 
   display: true 
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -327,8 +324,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
@@ -382,30 +377,10 @@ const achievementSection = {
   display: true 
 };
 
-// Blogs Section
-
-/*const blogSection = {
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", 
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true 
-};*/
-
-// Talks Sections
-
-// Podcast Section
+// SAFETY TOGGLE: Dideklarasikan mati (false) di sini agar halaman portofolio tidak crash mencari variabel objeknya
+const blogSection = { display: false };
+const talkSection = { display: false };
+const podcastSection = { display: false };
 
 // Resume Section
 const resumeSection = {
@@ -444,6 +419,9 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  blogSection,      // Tetap dieksport untuk mengelabui file luar agar tidak memicu eror runtime
+  talkSection,      // Tetap dieksport untuk mengelabui file luar agar tidak memicu eror runtime
+  podcastSection,   // Tetap dieksport untuk mengelabui file luar agar tidak memicu eror runtime
   contactInfo,
   twitterDetails,
   isHireable,
