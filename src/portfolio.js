@@ -308,6 +308,39 @@ const bigProjects = {
         }
       ]
     },
+      {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://theluxurybali.com/"
+        }
+      ]
+    },
+      {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://theluxurybali.com/"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://theluxurybali.com/"
+        }
+      ]
+    },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
