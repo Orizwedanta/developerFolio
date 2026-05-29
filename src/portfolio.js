@@ -154,7 +154,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Technology & Business Institute of STIKOM Bali",
-      logo: require("./assets/images/stikombali.jpeg"),
+      logo: require("./assets/images/stikombali.png"),
       subHeader: "Bachelor of Computer Science",
       duration: "February 2019 - May 2023",
       desc: "Participated in the research of XXX and published 3 papers.",
