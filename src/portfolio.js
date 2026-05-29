@@ -176,7 +176,7 @@ const educationInfo = {
 
 // Your top 3 proficient stacks/tech experience
 const techStack = {
-  viewSkillBars: true, // WAJIB TRUE agar section ini dirender
+  viewSkillBars: false, // WAJIB TRUE agar section ini dirender
   displayCodersrank: false,
 
   // KATEGORI 1: TOOLS & SAAS PLATFORMS (Ditambahkan persentase default 75%-90% agar bar menyala panjang)
@@ -234,7 +234,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "OTA Distribution & Revenue Management",
+      Stack: "OTA Distribution & Management",
       progressPercentage: "85%"
     },
     {
@@ -255,7 +255,7 @@ const workExperiences = {
     {
       role: "IT & Web Specialist",
       company: "The Luxury Leisure",
-      companylogo: "https://docs.google.com/uc?export=download&id=1NfH1UDh9pfJnTNybDKNGlYSCAWY0u-dQ",
+      companylogo: require("./assets/images/luxuryleisure.png"),
       date: "December 2024 – Present",
       desc: "Helps the travel agency company by configure, monitorize, & also maintain their commercials websites related to real estate property agency & partners.",
       descBullets: [
@@ -267,7 +267,7 @@ const workExperiences = {
     {
       role: "Reservation & Support Administrator",
       company: "U & I Holidays",
-      companylogo:require("./assets/images/uiholidays.png"),
+      companylogo: require("./assets/images/uiholidays.png"),
       date: "February 2023 – November 2024",
       desc: "The Reservation System serves as the central hub for managing property inventory, live availability, and guest bookings guidance.",
        descBullets: [
