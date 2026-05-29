@@ -153,10 +153,10 @@ const educationInfo = {
   display: true, 
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "Technology & Business Institute of STIKOM Bali",
+      logo: require("./assets/images/stikombali.jpeg"),
+      subHeader: "Bachelor of Computer Science",
+      duration: "February 2019 - May 2023",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -396,7 +396,7 @@ const podcastSection = { display: false };
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "Feel free to review my resume",
   display: true 
 };
 
