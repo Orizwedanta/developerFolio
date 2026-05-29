@@ -304,7 +304,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://theluxurybali.com/"
         }
       ]
     },
@@ -315,7 +315,18 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://bridesvenues.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://theluxurybali.com/"
         }
       ]
     }
