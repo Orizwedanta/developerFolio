@@ -296,7 +296,7 @@ const openSource = {
 // Some big projects you have worked on
 const bigProjects = {
   title: "Participated Projects",
-  subtitle: "List of company projects that i helps participated by actively contribute to develop, configure, and monitorized the project performance.",
+  subtitle: "Active contributor to the end-to-end lifecycle of core company projects specializing in development, system configuration, and performance monitoring. Optimized system stability and deployment efficiency.",
   projects: [
     {
       image: require("./assets/images/theluxurybali.png"),
