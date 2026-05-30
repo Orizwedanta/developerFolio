@@ -288,19 +288,19 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects */
 const openSource = {
-  showGithubProfile: "true", 
-  display: true 
+  showGithubProfile: "false", 
+  display: false 
 };
 
 // Some big projects you have worked on
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Participated Projects",
+  subtitle: "List of company projects that i helps participated by actively contribute to develop, configure, and monitorized the project performance.",
   projects: [
     {
       image: require("./assets/images/theluxurybali.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "The Luxury Bali",
+      projectDesc: "Growth website project provide among 20+ partnership & 400+ villas in Bali",
       footerLink: [
         {
           name: "Visit Website",
@@ -310,8 +310,8 @@ const bigProjects = {
     },
       {
       image: require("./assets/images/theluxuryleisure.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "The Luxury Leisure",
+      projectDesc: "The continous developed website project is to provide among 50+ partnership and 800+ villas in Indonesia, Thailand, Japan",
       footerLink: [
         {
           name: "Visit Website",
@@ -321,8 +321,8 @@ const bigProjects = {
     },
       {
       image: require("./assets/images/bridesvenues.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Brides Venues",
+      projectDesc: "This website project provide among 200+ venues to wedding in Bali, Thailand, France, Italy",
       footerLink: [
         {
           name: "Visit Website",
@@ -332,8 +332,8 @@ const bigProjects = {
     },
      {
       image: require("./assets/images/yhcharter.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "YH Charter",
+      projectDesc: "YH Charter is providing Indonesia, Thailand, & Mediterranian partnership for total 400+ yacht trip",
       footerLink: [
         {
           name: "Visit Website",
@@ -344,7 +344,7 @@ const bigProjects = {
     {
       image: require("./assets/images/leadluxury.png"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Property Management projects continous developed by using Channel Manager, Booking Engine and integrating OTA's",
       footerLink: [
         {
           name: "Visit Website",
@@ -418,7 +418,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true 
+  display: false 
 };
 
 // SAFETY TOGGLE: Dideklarasikan mati (false) di sini agar halaman portofolio tidak crash mencari variabel objeknya
