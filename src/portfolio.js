@@ -298,7 +298,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/theluxurybali.png"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -309,46 +309,46 @@ const bigProjects = {
       ]
     },
       {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/theluxuryleisure.png"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://theluxurybali.com/"
+          url: "http://theluxuryleisure.com/"
         }
       ]
     },
       {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/bridesvenues.png"),
       projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://theluxurybali.com/"
-        }
-      ]
-    },
-     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://theluxurybali.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
           url: "http://bridesvenues.com/"
+        }
+      ]
+    },
+     {
+      image: require("./assets/images/yhcharter.png"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://yh-charter.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/leadluxury.png"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://lead-luxury.com/"
         }
       ]
     },
