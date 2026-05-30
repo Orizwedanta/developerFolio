@@ -264,7 +264,7 @@ const workExperiences = {
       role: "Reservation & Support Administrator",
       company: "U & I Holidays",
       companylogo: require("./assets/images/uiholidays.png"),
-      date: "February 2023 – November 2024",
+      date: "February 2024 – July 2024",
       desc: "The Reservation System serves as the central hub for managing property inventory, live availability, and guest bookings guidance.",
        descBullets: [
         "Instantly updates trip availability and fulfill bookings itinerary across guest itinerary database and internal systems",
@@ -273,11 +273,16 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Frontliner Staff",
+      company: "Colizeum Arena",
+      companylogo: require("./assets/images/colizeumarena.png"),
+      date: "August 2024 – November 2024",
+      desc: "Helps the company in responsibilty and by ability of welcoming, consolidates the payment, assist the guest, and maintain the official perks.",
+       descBullets: [
+        "Welcoming the guests and guiding the guests reservation trough the internal langame system",
+        "Consolidates the payment and assist the reserved guests due to their activities",
+        "Maintain the official perks after the guest leave"
+      ]
     }
   ]
 };
@@ -307,7 +312,7 @@ const bigProjects = {
       {
       image: require("./assets/images/theluxuryleisure.png"),
       projectName: "The Luxury Leisure",
-      projectDesc: "The continous developed website project is to provide among 50+ partnership and 800+ villas in Indonesia, Thailand, Japan",
+      projectDesc: "The continous developed website project is to provide in total 50+ partnerships and 825+ villas in Indonesia, Thailand, Japan",
       footerLink: [
         {
           name: "Visit Website",
@@ -318,7 +323,7 @@ const bigProjects = {
       {
       image: require("./assets/images/bridesvenues.png"),
       projectName: "Brides Venues",
-      projectDesc: "This website project provide among 200+ venues to wedding in Bali, Thailand, France, Italy",
+      projectDesc: "This website project developed among 200+ venues to wedding in Bali, Thailand, France, Italy",
       footerLink: [
         {
           name: "Visit Website",
@@ -349,13 +354,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/venomnetwork.png"),
+      projectName: "Venom Network",
+      projectDesc: "Venom Network is a web 3.0 blockchain decentralized autonomous organization company with along with 20 ecosystem projects",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://theluxurybali.com/"
+          url: "http://venom.foundation/"
         }
       ]
     }
