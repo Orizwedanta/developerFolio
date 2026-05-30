@@ -157,11 +157,7 @@ const educationInfo = {
       logo: require("./assets/images/stikombali.png"),
       subHeader: "Bachelor of Computer Science",
       duration: "February 2019 - May 2023",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "GPA : 3.25."
     },
     {
       schoolName: "Stanford University",
@@ -343,7 +339,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/leadluxury.png"),
-      projectName: "Nextu",
+      projectName: "LEAD Luxury Management",
       projectDesc: "Property Management projects continous developed by using Channel Manager, Booking Engine and integrating OTA's",
       footerLink: [
         {
