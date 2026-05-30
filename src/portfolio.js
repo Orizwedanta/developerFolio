@@ -439,7 +439,7 @@ const contactInfo = {
   subtitle: "Discuss a project? Feel free to contact me.",
   number: "+6287860441732",
   email_address: "oriz.wedanta@gmail.com",
-  avatar_image_path: require("./assets/images/orizwedanta.jpeg") // <-- Tambahkan baris ini!
+  image: require("./assets/images/orizwedanta.jpeg") // <-- Tambahkan baris ini!
 };
 
 // Twitter Section
