@@ -172,7 +172,7 @@ const educationInfo = {
 
 // Your top 3 proficient stacks/tech experience
 const techStack = {
-  viewSkillBars: false, // WAJIB TRUE agar section ini dirender
+  viewSkillBars: true, // WAJIB TRUE agar section ini dirender
   displayCodersrank: false,
 
   // KATEGORI 1: TOOLS & SAAS PLATFORMS (Ditambahkan persentase default 75%-90% agar bar menyala panjang)
