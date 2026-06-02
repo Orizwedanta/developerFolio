@@ -60,7 +60,7 @@ export default function GithubProfileCard({prof}) {
           <div className="image-content-profile">
             {/* 3. MENGGANTI SRC DARI prof.avatarUrl MENJADI OrizAvatarProfil */}
             <img
-              src={OrizAvatarProfil}
+              src={require("../../assets/images/orizwedanta.png")}
               alt="Oriz Wedanta"
               className="profile-image"
             />
