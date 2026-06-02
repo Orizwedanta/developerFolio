@@ -289,8 +289,8 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects */
 const openSource = {
-  showGithubProfile: "false", 
-  display: false 
+  showGithubProfile: "true", 
+  display: true 
 };
 
 // Some big projects you have worked on
