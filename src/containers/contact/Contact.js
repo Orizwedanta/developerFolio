@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
+import OrizProfileImg from "../../assets/images/orizwedanta.png";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -56,7 +57,7 @@ export default function Contact() {
             {contactInfo.avatar_image_path ? (
               <img
                 alt="Oriz Wedanta"
-                src={contactInfo.avatar_image_path}
+                src={OrizProfileImg}
                 style={{
                   width: "280px",
                   height: "280px",
