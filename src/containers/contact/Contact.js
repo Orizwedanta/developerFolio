@@ -53,13 +53,27 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
+            {contactInfo.avatar_image_path ? (
+              <img
+                alt="Oriz Wedanta"
+                src={contactInfo.avatar_image_path}
+                style={{
+                  width: "280px",
+                  height: "280px",
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  border: "4px solid #701ced", // Memberikan lingkaran ungu estetik mirip profil atas Anda
+                  display: "block",
+                  margin: "0 auto"
+                }}
+              />
+            ) : illustration.animated ? (
               <DisplayLottie animationData={email} />
             ) : (
               <img
                 alt="Man working"
                 src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
+              />
             )}
           </div>
         </div>
