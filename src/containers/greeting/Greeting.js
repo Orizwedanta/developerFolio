@@ -48,7 +48,7 @@ rel="noopener noreferrer"
                     
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="Review my resume" />
                   </a>
                 )}
               </div>
