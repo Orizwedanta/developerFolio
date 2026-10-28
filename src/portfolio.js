@@ -24,7 +24,7 @@ const greeting = {
     "A passionate of SEO, Front End, Website Developer. Having an experience of building and maintaining commercial Websites, experienced with many SaaS developer tools such as Wordpress, Framer, Botpress."
   ),
   resumeLink:
-    "https://www.dropbox.com/scl/fi/n52na3mu9kttu6q9va1w9/my-cv.pdf?rlkey=9w5zd32idneq8r5b4mlqscf55&st=zimrudc6&dl=0", // Set to empty to hide the button
+    "https://www.dropbox.com/scl/fi/tufynllv2hriu1qgq1e64/my-cv-1.pdf?rlkey=cwkw7grmmmsozhia3ys1fjoz6&st=8zcw6hnc&dl=0", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -118,7 +118,7 @@ const skillsSection2 = {
 
 // ==================== 4. WEBSITE BUILDER ====================
 const skillsSection3 = {
-  title: "Website Builder",
+  title: "Website Developer",
   subTitle: "Building production-ready commercial platforms and maintaining high-performance digital presence using modern frameworks.",
   skills: [
     "➤ Building production-ready websites and highly customized digital structures tailored to commercial brand deployment pipelines.",
@@ -244,7 +244,7 @@ const workExperiences = {
       role: "IT & Web Specialist",
       company: "The Luxury Leisure",
       companylogo: require("./assets/images/luxuryleisure.png"),
-      date: "December 2024 – Present",
+      date: "December 2024 – March 2027",
       desc: "Helps the travel agency company by configure, monitorize, & also maintain their commercials websites related to real estate property agency & partners.",
       descBullets: [
         "Track & monitor the websites performance using Sitechecker",
